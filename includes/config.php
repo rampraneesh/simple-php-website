@@ -13,9 +13,9 @@ function config($key = '')
         'pretty_uri' => true,
         'nav_menu' => [
             '' => 'Home',
-            'about-us' => 'About Us',
-            'products' => 'Products',
-            'contact' => 'Contact',
+            '?page=about-us' => 'About Us',
+            '?page=products' => 'Products',
+            '?page=contact' => 'Contact',
         ],
         'template_path' => 'template',
         'content_path' => 'content',
