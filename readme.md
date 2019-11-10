@@ -15,7 +15,7 @@ I've made sure to make the running of this little site as simple as possible. Th
 
 The project covers these programming concepts:
 
- * Variables
+ * Variables-
  * Arrays
  * Functions
  * Pretty links *(/about) with fallback to query string (?page=about)*
