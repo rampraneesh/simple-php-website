@@ -17,7 +17,7 @@ node
         {
             echo '==========GitDownload=========='
             //download the repo
-            git 'https://github.com/Raveendiran-RR/simple-php-website.git'
+            git 'https://github.com/shekhar-devops/simple-php-website.git'
         }
 
         stage('Build / deploy stage ')
