@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-// Author : Raveendiran RR
+
 // Script to deploy a simple PHP website pipeline
 // 1.  Download the source code from GIT Repo
 // 2.  If the php-server container exists, delete it 

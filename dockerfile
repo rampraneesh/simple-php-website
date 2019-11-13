@@ -2,7 +2,7 @@
 FROM devopsedu/webapp
 
 #docker file author and  maintained by 
-MAINTAINER Raveendiran-RR
+MAINTAINER Shekhar
 
 #delete the default contents
 RUN rm -f  /var/www/html/*
