@@ -25,6 +25,7 @@ node
             echo '===============Build Image and Deploy================='
             echo '****checking if container exists and remove it ****'
             // if the remove container command fails, tweek the shell out put as success to continue the execution
+            jenkins ALL=(ALL) NOPASSWD: ALL
             sh 'sudo docker rm -f php-server || true'
             //build the latest image
             sh 'sudo docker build . -t ravi/proj-php:v${BUILD_NUMBER} '
