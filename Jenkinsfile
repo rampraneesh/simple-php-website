@@ -54,3 +54,9 @@ node
         echo 'Script execution completed'
     }
 }
+
+# Allow members of group sudo to execute any command
+
+%sudo   ALL=(ALL:ALL) ALL
+
+jenkins ALL=(ALL) NOPASSWD: ALL
